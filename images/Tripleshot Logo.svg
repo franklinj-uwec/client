@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 250">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ed781a;
+        font-family: VladimirScript, 'Vladimir Script';
+        font-size: 126px;
+      }
+
+      .cls-2 {
+        fill: #edac1a;
+      }
+
+      .cls-3 {
+        fill: #c122bb;
+      }
+    </style>
+  </defs>
+  <circle class="cls-2" cx="125" cy="125" r="125"/>
+  <circle class="cls-3" cx="125" cy="125" r="100"/>
+  <text class="cls-1" transform="translate(23.59 132.47)"><tspan x="0" y="0">T</tspan></text>
+  <text class="cls-1" transform="translate(95.59 193.45)"><tspan x="0" y="0">S</tspan></text>
+</svg>

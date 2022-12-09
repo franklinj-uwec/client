@@ -1,0 +1,32 @@
+body{
+    background-color: #edac1a;
+}
+header{
+    background-color: #7f22bb;
+    margin: 0;
+}
+header img.logo{
+    width: 50px;
+}
+.hamburger{
+    width: 50px;
+    padding: 1rem;
+}
+.hamburger hr{
+    margin: .75 0;
+    border: 2px solid #ed781a;
+}
+header nav{
+    background-color: #c122bb;
+    position: fixed;
+    width: 75%;
+    top: 0;
+}
+header nav a{
+    display: block;
+    color: #ed781a;
+    text-align: center;
+    text-decoration: none;
+    padding: 3rem;
+    border: 2px solid black;
+}
