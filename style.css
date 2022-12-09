@@ -6,7 +6,8 @@ header{
     margin: 0;
 }
 header img.logo{
-    width: 50px;
+    width: 20%;
+    margin: .5rem;
 }
 .hamburger{
     width: 50px;
@@ -20,13 +21,39 @@ header nav{
     background-color: #c122bb;
     position: fixed;
     width: 75%;
-    top: 0;
+    top: 7.5rem;
 }
 header nav a{
     display: block;
     color: #ed781a;
     text-align: center;
     text-decoration: none;
-    padding: 3rem;
+    padding: 2rem;
     border: 2px solid black;
+}
+header nav{
+    left: 100%;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header nav.show{
+    left: 7.2rem;
+}
+header nav{
+    transition-property: left;
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
+}
+nav a:hover{
+    color: #edac1a;
+    text-decoration: underline;
+}
+img.drunken-mocha{
+    width: 40rem;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
 }
