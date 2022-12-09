@@ -57,3 +57,19 @@ img.drunken-mocha{
     display: flex;
     align-items: center;
 }
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: #7f22bb;
+    text-align: center;
+    font-size: 3rem;
+}
+section p{
+    margin: 1rem;
+}
+img.homebase{
+    width: 40rem;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    border: 2px solid #c122bb;
+}
