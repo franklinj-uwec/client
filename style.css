@@ -39,7 +39,7 @@ header{
     align-items: center;
     justify-content: space-between;
 }
-header nav.show{
+header .show{
     left: 7.2rem;
 }
 header nav{
@@ -51,25 +51,280 @@ nav a:hover{
     color: #edac1a;
     text-decoration: underline;
 }
-img.drunken-mocha{
-    width: 40rem;
-    max-width: 100%;
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4;
+}
+h3{
+    font-family: 'Times New Roman', Times, serif;
+}
+h4{
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+div.drinks-home{
     display: flex;
-    align-items: center;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+}
+div.drinks-home img{
+    width: 50%;
 }
 h1{
     font-family: 'Times New Roman', Times, serif;
     color: #7f22bb;
     text-align: center;
-    font-size: 3rem;
+    font-size: 6rem;
+    font-weight: 900;
 }
-section p{
+.p-home{
+    text-align: center;
     margin: 1rem;
 }
-img.homebase{
-    width: 40rem;
-    max-width: 100%;
+div.homebase-about{
     display: flex;
-    align-items: center;
-    border: 2px solid #c122bb;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+}
+div.homebase-about img{
+    width: 60%;
+    border: 3px solid #c122bb;
+}
+div.p-about p{
+    text-align: center;
+    margin: 1rem;
+}
+.menu-h2{
+    color: #c122bb;
+    text-align: center;
+}
+div.product-menu{
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+}
+div.product-menu img{
+    width: 70%;
+}
+.hr-menu{
+    border: 2px solid #ed781a;
+}
+.menu-p{
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+h2{
+    color: #c122bb;
+}
+div.homebase-ordering{
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+}
+div.homebase-ordering img{
+    width: 70%;
+    border: 4px solid #7f22bb;
+}
+form>label{
+    display: block;
+    font-size: 1.5rem;
+    margin: 1rem 0 .25rem;
+    color: #7f22bb;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+div.inputbox{
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+}
+input[type=text], input[type=number], input[type=date], input[type=time], input[type=email]{
+    font-size: 1.25rem;
+    max-width: calc(100% - 1rem);
+    border: 3px solid #ed781a;
+    padding: .5rem;
+    border-radius: .25rem;
+}
+p.time-request{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #c122bb;
+    text-align: center;
+}
+div.action{
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+}
+input[type=submit]{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    border: 3px solid #ed781a;
+    margin: 2rem;
+    background-color: #c122bb;
+    color: #ed781a;
+}
+input:hover[type=submit]{
+    background-color: green;
+    color: #edac1a;
+}
+div.vandelay-contact{
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+}
+div.vandelay-contact img{
+    width: 70%;
+    border: 8px solid #7f22bb;
+}
+div.vannostrand-contact{
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+}
+div.vannostrand-contact img{
+    width: 70%;
+    border: 8px solid #7f22bb;
+}
+div.varnsen-contact{
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+}
+div.varnsen-contact img{
+    width: 70%;
+    border: 8px solid #7f22bb;
+}
+div.pennypicker-contact{
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+}
+div.pennypicker-contact img{
+    width: 70%;
+    border: 8px solid #7f22bb;
+}
+.h2-contacts{
+    text-align: center;
+}
+.h3-contacts{
+    text-align: center;
+    font-size: 3rem;
+}
+.h4-contacts{
+    text-align: center;
+    font-size: 2rem;
+}
+.a-contacts{
+    color: #7f22bb;
+    text-decoration: none;
+}
+.a-contacts:hover{
+    color: #c122bb;
+    text-decoration: underline;
+}
+.big{
+    border: 5px solid #ed781a;
+}
+.small{
+    border: 3px solid #7f22bb
+}
+@media (min-width:500px){
+    .hamburger{
+        display: none;
+    }
+    header img.logo{
+        width: 10%;
+    }
+    header nav{
+        position: static;
+        background-color: unset;
+        width: unset;
+    }
+    header nav a{
+        border: none;
+        padding: 2rem;
+        display: inline-block;
+        font-size: 2rem;
+    }
+    header nav a:hover{
+        color: #edac1a;
+        text-decoration: underline;
+    }
+    .h1{
+        font-size: 8rem;
+    }
+    h2{
+        font-size: 6rem;
+    }
+    p{
+        font-size: 2rem;
+    }
+    div.drinks-home img{
+        width: 35%;
+    }
+    div.homebase-about img{
+        width: 70%;
+    }
+    div.p-about p{
+        margin: 1.5rem;
+    }
+    div.product-menu img{
+        width: 30%;
+    }
+    form>label{
+        display: block;
+        font-size: 3rem;
+        margin: 1.5rem .5rem 1rem;
+    }
+    div.inputbox{
+        display: flex;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: space-around;
+    }
+    input[type=text], input[type=number], input[type=date], input[type=time], input[type=email]{
+        font-size: 2rem;
+        padding: 1rem;
+        border-radius: .5rem;
+    }
+    div.action{
+        display: flex;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: space-around;
+    }
+    input[type=submit]{
+        font-size: 3rem;
+        padding: 1rem;
+        border-radius: 2rem;
+        border: 3px solid #ed781a;
+        margin: 2rem;
+        color: #edac1a;
+    }
+    .p-contacts{
+        margin: 2rem;
+        text-align: center;
+    }
+    .h3-contacts{
+        font-size: 4.5rem;
+    }
+    .h4-contacts{
+        font-size: 3rem;
+    }
 }

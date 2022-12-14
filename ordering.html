@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="apple-touch-icon" sizes="180x180" href="Documents/GitHub/client/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Documents/GitHub/client/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Documents/GitHub/client/images/favicon-16x16.png">
+    <link rel="manifest" href="Documents/GitHub/client/images/site.webmanifest">
+    <link rel="mask-icon" href="Documents/GitHub/client/images/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="Documents/GitHub/client/images/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="Documents/GitHub/client/images/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="style.css">
     <script src="scripts.js"></script>
     <meta charset="UTF-8">
@@ -10,7 +19,7 @@
 </head>
 <body>
     <header>
-        <img src="images/Tripleshot Logo.svg" alt="Tripleshot Logo" class="logo">
+        <img src="images/TripleshotLogo.svg" alt="Tripleshot Logo" class="logo">
         <div class="hamburger" onclick="toggleNav()">
             <hr>
             <hr>
@@ -24,5 +33,53 @@
             <a href="contacts.html">Contact Us</a>
         </nav>
     </header>
+    <main>
+        <h1 class="h1">Ordering</h1>
+        <div class="homebase-ordering">
+            <img src="images/theplace.jpg" alt="Tripleshot Location">
+        </div>
+        <form>
+            <label for="name">Your name</label>
+            <div class="inputbox">
+                <input type="text" id="name" name="name">
+            </div>
+            <label for="drunken-mocha">Drunken Mocha</label>
+            <div class="inputbox">
+                <input type="number" id="drunken-mocha" name="drunken-mocha" value="0" min="0" max="30">
+            </div>
+            <label for="salted-caramel">Salted Caramel</label>
+            <div class="inputbox">
+                <input type="number" id="salted-caramel" name="salted-caramel" value="0" min="0" max="30">
+            </div>
+            <label for="vanilla-bean">Vanilla Bean</label>
+            <div class="inputbox">
+                <input type="number" id="vanilla-bean" name="vanilla-bean" value="0" min="0" max="30">
+            </div>
+            <label for="request">Specific Requests</label>
+            <div class="inputbox">
+                <input type="text" id="request" name="request">
+            </div>
+            <label for="date">Day Needed</label>
+            <div class="inputbox">
+                <input type="date" id="date" name="date">
+            </div>
+            <label for="time">Time Needed</label>
+            <div class="inputbox">
+                <input type="time" id="time" name="time">
+            </div>
+            <p class="time-request">Please choose a time between 7:00 AM and 4:00 PM</p>
+            <label for="phone">Phone Number</label>
+            <div class="inputbox">
+                <input type="text" id="phone" name="phone" value="(###)###-####">
+            </div>
+            <label for="email">Email</label>
+            <div class="inputbox">
+                <input type="text" id="email" name="email">
+            </div>
+            <div class="action">
+                <input type="submit">
+            </div>
+        </form>
+    </main>
 </body>
 </html>
