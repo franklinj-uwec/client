@@ -53,7 +53,7 @@ nav a:hover{
 }
 h2{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 4;
+    font-size: 4rem;
 }
 h3{
     font-family: 'Times New Roman', Times, serif;
@@ -83,7 +83,7 @@ h1{
 }
 .p-home{
     text-align: center;
-    margin: 1rem;
+    padding: 0 0 1rem 0;
 }
 div.homebase-about{
     display: flex;
@@ -97,7 +97,7 @@ div.homebase-about img{
 }
 div.p-about p{
     text-align: center;
-    margin: 1rem;
+    padding: 1rem 1rem 0 1rem;
 }
 .menu-h2{
     color: #c122bb;
@@ -179,43 +179,13 @@ input:hover[type=submit]{
     background-color: green;
     color: #edac1a;
 }
-div.vandelay-contact{
+div.img-contact{
     display: flex;
     flex-wrap: nowrap;
     align-content: center;
     justify-content: space-around;
 }
-div.vandelay-contact img{
-    width: 70%;
-    border: 8px solid #7f22bb;
-}
-div.vannostrand-contact{
-    display: flex;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: space-around;
-}
-div.vannostrand-contact img{
-    width: 70%;
-    border: 8px solid #7f22bb;
-}
-div.varnsen-contact{
-    display: flex;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: space-around;
-}
-div.varnsen-contact img{
-    width: 70%;
-    border: 8px solid #7f22bb;
-}
-div.pennypicker-contact{
-    display: flex;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: space-around;
-}
-div.pennypicker-contact img{
+div.img-contact img{
     width: 70%;
     border: 8px solid #7f22bb;
 }
@@ -237,6 +207,9 @@ div.pennypicker-contact img{
 .a-contacts:hover{
     color: #c122bb;
     text-decoration: underline;
+}
+.p-address{
+    text-align: center;
 }
 .big{
     border: 5px solid #ed781a;
@@ -277,9 +250,6 @@ div.pennypicker-contact img{
     }
     div.drinks-home img{
         width: 35%;
-    }
-    div.homebase-about img{
-        width: 70%;
     }
     div.p-about p{
         margin: 1.5rem;
