@@ -14,7 +14,7 @@ header img.logo{
     padding: 1rem;
 }
 .hamburger hr{
-    margin: .75 0;
+    margin: .75 0;/*Missing unit for .75*/
     border: 2px solid #ed781a;
 }
 header nav{
